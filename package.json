@@ -1,7 +1,7 @@
 {
   "name": "stream-tweets",
   "version": "0.0.0",
-  "description": "",
+  "description": "Display real-time tweets that contain a keyword",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/pixelOneZero/stream-tweets.git"
   },
-  "author": "Michael McCarthy",
+  "author": "Michael McCarthy mike@pixelonezero.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pixelOneZero/stream-tweets/issues"
