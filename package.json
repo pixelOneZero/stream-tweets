@@ -1,0 +1,23 @@
+{
+  "name": "stream-tweets",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelOneZero/stream-tweets.git"
+  },
+  "author": "Michael McCarthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixelOneZero/stream-tweets/issues"
+  },
+  "homepage": "https://github.com/pixelOneZero/stream-tweets",
+  "dependencies": {
+    "express": "^4.10.6",
+    "twitter": "^1.0.1"
+  }
+}
