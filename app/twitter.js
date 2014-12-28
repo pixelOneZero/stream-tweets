@@ -33,9 +33,13 @@ app.get('/', function (req, res) {
 	  access_token_secret: 'qktruJyZmpVdkh4aVv9Fb6eDkVPX9A2PcGPh3ytm6qSNd'
 	});
 
+  var tweetResults;
 	client.get('search/tweets.json', {q: 'sephora'}, function(error, params, response){
 	    if(error) throw error;
-	    for (var i = 0; i < params.statuses.length; i++) {
+      
+      tweetResults = response;
+	    
+      for (var i = 0; i < params.statuses.length; i++) {
 	    	console.log(params.statuses[i].created_at + ' ' + params.statuses[i].text);  // The favorites.
 	    	console.log('--------------------------------');
 	    }
