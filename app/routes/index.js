@@ -12,7 +12,7 @@ var client = new Twitter({
 
 // Request tweets containing 'sephora' from Twitter API
 var tweetResults;
-client.get('search/tweets.json', {q: 'sephora', lang: 'en'}, function(error, params, response){
+client.get('search/tweets.json', {q: 'sephora', lang: 'en', result_type: 'popular'}, function(error, params, response){
   if(error) throw error;
   tweetResults = params.statuses;
 });

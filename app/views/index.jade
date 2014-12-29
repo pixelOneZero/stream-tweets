@@ -3,6 +3,5 @@ extends layout
 block content  
   h1 #{title}
 
-  ul
   each status, index in tweetResults 
-    li= status.text + ", " + status.user.location
+    div!= "<img src='" + status.user.profile_image_url + "' />" + status.text + ", " + status.user.location
